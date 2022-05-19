@@ -5,20 +5,19 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.monster.Zombie;
-import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
@@ -29,7 +28,9 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.muckmod.init.MuckmodModItems;
 import net.mcreator.muckmod.init.MuckmodModEntities;
 
-public class MobmuckEntity extends Zombie {
+import java.util.Random;
+
+public class MobmuckEntity extends PathfinderMob {
 	public MobmuckEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(MuckmodModEntities.MOBMUCK.get(), world);
 	}
@@ -48,16 +49,19 @@ public class MobmuckEntity extends Zombie {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8, 20) {
 			@Override
-			protected double getAttackReachSqr(LivingEntity entity) {
-				return (double) (4.0 + entity.getBbWidth() * entity.getBbWidth());
+			protected Vec3 getPosition() {
+				Random random = MobmuckEntity.this.getRandom();
+				double dir_x = MobmuckEntity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
+				double dir_y = MobmuckEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
+				double dir_z = MobmuckEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
+				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
+		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(3, new FloatGoal(this));
+		this.goalSelector.addGoal(4, new LeapAtTargetGoal(this, (float) 0.5));
 	}
 
 	@Override
@@ -99,7 +103,6 @@ public class MobmuckEntity extends Zombie {
 		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
-		builder = builder.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
 		return builder;
 	}
 }

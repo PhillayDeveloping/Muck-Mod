@@ -7,7 +7,6 @@ import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -30,6 +29,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.muckmod.init.MuckmodModItems;
 import net.mcreator.muckmod.init.MuckmodModEntities;
 
 public class KingGolemEntity extends PathfinderMob {
@@ -81,7 +81,7 @@ public class KingGolemEntity extends PathfinderMob {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(Items.GOLDEN_HELMET));
+		this.spawnAtLocation(new ItemStack(MuckmodModItems.CROWN_HELMET.get()));
 	}
 
 	@Override

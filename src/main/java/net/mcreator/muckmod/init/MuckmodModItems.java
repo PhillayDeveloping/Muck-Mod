@@ -22,6 +22,7 @@ import net.mcreator.muckmod.item.MuckIngotItem;
 import net.mcreator.muckmod.item.MuckHoeItem;
 import net.mcreator.muckmod.item.MuckAxeItem;
 import net.mcreator.muckmod.item.MuckArmorItem;
+import net.mcreator.muckmod.item.CrownItem;
 import net.mcreator.muckmod.MuckmodMod;
 
 public class MuckmodModItems {
@@ -55,6 +56,7 @@ public class MuckmodModItems {
 	public static final RegistryObject<Item> MUCK_PACK_BUTTON = block(MuckmodModBlocks.MUCK_PACK_BUTTON, MuckmodModTabs.TAB_MUCK_MOD);
 	public static final RegistryObject<Item> KING_GOLEM = REGISTRY.register("king_golem_spawn_egg",
 			() -> new ForgeSpawnEggItem(MuckmodModEntities.KING_GOLEM, -1, -1, new Item.Properties().tab(MuckmodModTabs.TAB_MUCK_MOD)));
+	public static final RegistryObject<Item> CROWN_HELMET = REGISTRY.register("crown_helmet", () -> new CrownItem.Helmet());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

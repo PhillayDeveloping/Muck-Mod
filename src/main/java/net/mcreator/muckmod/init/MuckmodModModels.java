@@ -12,12 +12,14 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.muckmod.client.model.Modelsteve;
 import net.mcreator.muckmod.client.model.Modelmuckmob;
 import net.mcreator.muckmod.client.model.Modelirongolem;
+import net.mcreator.muckmod.client.model.ModelCrown;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class MuckmodModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelirongolem.LAYER_LOCATION, Modelirongolem::createBodyLayer);
+		event.registerLayerDefinition(ModelCrown.LAYER_LOCATION, ModelCrown::createBodyLayer);
 		event.registerLayerDefinition(Modelsteve.LAYER_LOCATION, Modelsteve::createBodyLayer);
 		event.registerLayerDefinition(Modelmuckmob.LAYER_LOCATION, Modelmuckmob::createBodyLayer);
 	}
