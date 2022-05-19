@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "muckmod:blocks/muckpack_log_top",
+    "up": "muckmod:blocks/muckpack_log_top",
+    "north": "muckmod:blocks/muckpack_log_side",
+    "east": "muckmod:blocks/muckpack_log_side",
+    "south": "muckmod:blocks/muckpack_log_side",
+    "west": "muckmod:blocks/muckpack_log_side",
+    "particle": "muckmod:blocks/muckpack_log_top"
+  }
+}

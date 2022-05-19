@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "muckmod:blocks/muckpack_planks",
+    "top": "muckmod:blocks/muckpack_planks",
+    "side": "muckmod:blocks/muckpack_planks"
+  }
+}

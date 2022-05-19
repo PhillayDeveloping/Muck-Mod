@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "muckmod:blocks/muck_ore_block",
+    "particle": "muckmod:blocks/muck_ore_block"
+  }
+}

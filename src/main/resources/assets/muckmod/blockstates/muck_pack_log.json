@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "muckmod:block/muck_pack_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "muckmod:block/muck_pack_log"
+    },
+    "axis=z": {
+      "model": "muckmod:block/muck_pack_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "muckdisc",
+    "name": "Muck Music Disk",
+    "description": "Playing muck music",
+    "creativeTab": {
+      "value": "CUSTOM:MuckMod"
+    },
+    "music": {
+      "value": "ambient.cave"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

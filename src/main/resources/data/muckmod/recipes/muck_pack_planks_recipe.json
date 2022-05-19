@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:muckpack_log"
+    }
+  ],
+  "result": {
+    "item": "muckmod:muck_pack_planks",
+    "count": 4
+  }
+}

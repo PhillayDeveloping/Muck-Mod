@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "muck_sword",
+    "customModelName": "Normal",
+    "name": "Muck Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MuckMod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 6,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 42,
+    "damageVsEntity": 18.0,
+    "usageCount": 1164,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MuckIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

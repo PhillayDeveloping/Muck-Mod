@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "muckmod:muck_ingot"
+    },
+    "2": {
+      "item": "muckmod:muck_ingot"
+    },
+    "3": {
+      "item": "muckmod:muck_ingot"
+    },
+    "4": {
+      "item": "muckmod:muck_ingot"
+    },
+    "5": {
+      "item": "muckmod:muck_ingot"
+    },
+    "6": {
+      "item": "muckmod:muck_ingot"
+    },
+    "7": {
+      "item": "muckmod:muck_ingot"
+    },
+    "8": {
+      "item": "muckmod:muck_ingot"
+    }
+  },
+  "result": {
+    "item": "muckmod:muck_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "muckmod:muck_ore",
+    "muckmod:muck_block"
+  ]
+}

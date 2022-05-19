@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "muckmod:muck_pack_planks"
+    },
+    "1": {
+      "item": "muckmod:muck_pack_planks"
+    },
+    "2": {
+      "item": "muckmod:muck_pack_planks"
+    }
+  },
+  "result": {
+    "item": "muckmod:muck_pack_slab",
+    "count": 6
+  }
+}

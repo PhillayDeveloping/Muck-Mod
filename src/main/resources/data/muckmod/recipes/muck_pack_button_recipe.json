@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "muckmod:muck_pack_planks"
+    }
+  ],
+  "result": {
+    "item": "muckmod:muck_pack_button",
+    "count": 1
+  }
+}

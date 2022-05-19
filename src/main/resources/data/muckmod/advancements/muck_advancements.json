@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "muckmod:muck_block"
+    },
+    "title": {
+      "translate": "advancements.muck_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.muck_advancements.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "muck_advancements": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "muckmod:muck_block"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

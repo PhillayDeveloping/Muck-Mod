@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "muckmod:block/muck_pack_pressure_plate"
+    },
+    "powered=true": {
+      "model": "muckmod:block/muck_pack_pressure_plate_down"
+    }
+  }
+}

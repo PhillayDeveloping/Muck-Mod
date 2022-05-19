@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MuckPackPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MuckPackPlanks"
+      },
+      {
+        "value": "CUSTOM:MuckPackPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MuckPackPlanks"
+      },
+      {
+        "value": "CUSTOM:MuckPackPlanks"
+      },
+      {
+        "value": "CUSTOM:MuckPackPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MuckPackStairs"
+    },
+    "name": "muck_pack_stairs_recipe",
+    "namespace": "mod"
+  }
+}

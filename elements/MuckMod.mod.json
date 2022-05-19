@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Muck Mod",
+    "icon": {
+      "value": "CUSTOM:MuckIngot"
+    },
+    "showSearch": false
+  }
+}

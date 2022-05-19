@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "muckmod:blocks/muckpack_planks",
+    "particle": "muckmod:blocks/muckpack_planks"
+  }
+}

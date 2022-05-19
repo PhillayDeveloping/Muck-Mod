@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "muckmod:muck_ingot"
+    },
+    "1": {
+      "item": "muckmod:muck_ingot"
+    },
+    "2": {
+      "item": "muckmod:muck_ingot"
+    },
+    "3": {
+      "item": "muckmod:muck_ingot"
+    },
+    "5": {
+      "item": "muckmod:muck_ingot"
+    },
+    "6": {
+      "item": "muckmod:muck_ingot"
+    },
+    "8": {
+      "item": "muckmod:muck_ingot"
+    }
+  },
+  "result": {
+    "item": "muckmod:muck_armor_leggings",
+    "count": 1
+  }
+}
