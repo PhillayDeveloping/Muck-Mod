@@ -427,6 +427,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_biome"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items"
     }
   ],
   "variable_elements": [],

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "muckmod:muck_dirt_block",
+    "muckmod:muck_grass_block"
+  ]
+}
