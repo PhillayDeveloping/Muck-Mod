@@ -31,6 +31,7 @@ import net.mcreator.muckmod.init.MuckmodModItems;
 import net.mcreator.muckmod.init.MuckmodModFeatures;
 import net.mcreator.muckmod.init.MuckmodModEntities;
 import net.mcreator.muckmod.init.MuckmodModBlocks;
+import net.mcreator.muckmod.init.MuckmodModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,6 +54,8 @@ public class MuckmodMod {
 		MuckmodModEntities.REGISTRY.register(bus);
 
 		MuckmodModFeatures.REGISTRY.register(bus);
+
+		MuckmodModBiomes.REGISTRY.register(bus);
 
 	}
 

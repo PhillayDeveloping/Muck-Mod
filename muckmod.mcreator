@@ -419,6 +419,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_grass_block"
+    },
+    {
+      "name": "MuckBiome",
+      "type": "biome",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muck_biome"
     }
   ],
   "variable_elements": [],
@@ -432,6 +440,7 @@
       "item.muckmod.mobmuck_spawn_egg": "Mini Muck Spawn Egg",
       "block.muckmod.muck_pack_fence_gate": "Muck Fence Gate",
       "block.muckmod.muck_grass_block": "Muck Grass Block",
+      "biome.muckmod.muck_biome": "Muck Biome",
       "item.muckmod.crown_helmet": "Crown",
       "block.muckmod.muck_pack_pressure_plate": "Muck Pressure Plate",
       "block.muckmod.muck_pack_wood": "Muck Wood",

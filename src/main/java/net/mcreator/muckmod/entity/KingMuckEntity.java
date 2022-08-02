@@ -37,11 +37,16 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.mcreator.muckmod.init.MuckmodModItems;
 import net.mcreator.muckmod.init.MuckmodModEntities;
 
+import java.util.Set;
+
 @Mod.EventBusSubscriber
 public class KingMuckEntity extends Monster {
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("muckmod:muck_biome"));
+
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(MuckmodModEntities.KING_MUCK.get(), 20, 4, 4));
+		if (SPAWN_BIOMES.contains(event.getName()))
+			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(MuckmodModEntities.KING_MUCK.get(), 20, 4, 4));
 	}
 
 	public KingMuckEntity(PlayMessages.SpawnEntity packet, Level world) {
