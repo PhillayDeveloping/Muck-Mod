@@ -44,7 +44,7 @@ public class MuckBiomeBiome {
 								BlockStateProvider.simple(MuckmodModBlocks.MUCK_PACK_LEAVES.get().defaultBlockState()),
 								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)).ignoreVines()
 								.build()),
-						List.of(CountPlacement.of(20), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
+						List.of(CountPlacement.of(5), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 								PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING),
 								BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
