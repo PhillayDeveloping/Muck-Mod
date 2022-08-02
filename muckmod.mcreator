@@ -3,7 +3,7 @@
     {
       "name": "MuckMod",
       "type": "tab",
-      "sortid": 8,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_mod"
@@ -11,7 +11,7 @@
     {
       "name": "MuckBlock",
       "type": "block",
-      "sortid": 12,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_block"
@@ -19,7 +19,7 @@
     {
       "name": "MuckAdvancements",
       "type": "achievement",
-      "sortid": 9,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_advancements"
@@ -27,7 +27,7 @@
     {
       "name": "MuckMusic",
       "type": "musicdisc",
-      "sortid": 2,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_music"
@@ -35,7 +35,7 @@
     {
       "name": "MuckIngot",
       "type": "item",
-      "sortid": 10,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_ingot"
@@ -43,7 +43,7 @@
     {
       "name": "MuckOre",
       "type": "block",
-      "sortid": 11,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_ore"
@@ -51,7 +51,7 @@
     {
       "name": "MuckOreBlockRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_ore_block_recipe"
@@ -59,7 +59,7 @@
     {
       "name": "MuckBlockOreRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_block_ore_recipe"
@@ -67,7 +67,7 @@
     {
       "name": "MuckOreSmelting",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_ore_smelting"
@@ -75,7 +75,7 @@
     {
       "name": "MuckPickaxe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pickaxe"
@@ -91,7 +91,7 @@
     {
       "name": "MuckSword",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_sword"
@@ -99,7 +99,7 @@
     {
       "name": "MuckShovel",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_shovel"
@@ -107,7 +107,7 @@
     {
       "name": "MuckHoe",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_hoe"
@@ -115,7 +115,7 @@
     {
       "name": "MuckPickaxeRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pickaxe_recipe"
@@ -123,7 +123,7 @@
     {
       "name": "MuckAxeRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_axe_recipe"
@@ -131,7 +131,7 @@
     {
       "name": "MuckSwordRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_sword_recipe"
@@ -139,7 +139,7 @@
     {
       "name": "MuckShovelRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_shovel_recipe"
@@ -147,7 +147,7 @@
     {
       "name": "MuckHoeRecipe",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_hoe_recipe"
@@ -155,7 +155,7 @@
     {
       "name": "MuckArmor",
       "type": "armor",
-      "sortid": 26,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_armor",
@@ -169,7 +169,7 @@
     {
       "name": "MuckArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_armor_helmet_recipe"
@@ -177,7 +177,7 @@
     {
       "name": "MuckArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_armor_body_recipe"
@@ -185,7 +185,7 @@
     {
       "name": "MuckArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_armor_leggings_recipe"
@@ -193,7 +193,7 @@
     {
       "name": "MuckArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_armor_boots_recipe"
@@ -201,7 +201,7 @@
     {
       "name": "MuckOreSmelt",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_ore_smelt"
@@ -209,7 +209,7 @@
     {
       "name": "Mobmuck",
       "type": "livingentity",
-      "sortid": 32,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mobmuck"
@@ -217,7 +217,7 @@
     {
       "name": "KingMuck",
       "type": "livingentity",
-      "sortid": 33,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "king_muck"
@@ -225,7 +225,7 @@
     {
       "name": "MuckPackWood",
       "type": "block",
-      "sortid": 34,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_wood"
@@ -233,7 +233,7 @@
     {
       "name": "MuckPackLog",
       "type": "block",
-      "sortid": 35,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_log"
@@ -241,7 +241,7 @@
     {
       "name": "MuckPackPlanks",
       "type": "block",
-      "sortid": 36,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_planks"
@@ -249,7 +249,7 @@
     {
       "name": "MuckPackLeaves",
       "type": "block",
-      "sortid": 37,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_leaves"
@@ -257,7 +257,7 @@
     {
       "name": "MuckPackStairs",
       "type": "block",
-      "sortid": 38,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_stairs"
@@ -265,7 +265,7 @@
     {
       "name": "MuckPackSlab",
       "type": "block",
-      "sortid": 39,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_slab"
@@ -273,7 +273,7 @@
     {
       "name": "MuckPackFence",
       "type": "block",
-      "sortid": 40,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_fence"
@@ -281,7 +281,7 @@
     {
       "name": "MuckPackFenceGate",
       "type": "block",
-      "sortid": 41,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_fence_gate"
@@ -289,7 +289,7 @@
     {
       "name": "MuckPackPressurePlate",
       "type": "block",
-      "sortid": 42,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_pressure_plate"
@@ -297,7 +297,7 @@
     {
       "name": "MuckPackButton",
       "type": "block",
-      "sortid": 43,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_button"
@@ -305,7 +305,7 @@
     {
       "name": "MuckPackItemsTag",
       "type": "tag",
-      "sortid": 44,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_items_tag"
@@ -313,7 +313,7 @@
     {
       "name": "MuckPackWoodRecipe",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_wood_recipe"
@@ -321,7 +321,7 @@
     {
       "name": "MuckPackPlanksRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_planks_recipe"
@@ -329,7 +329,7 @@
     {
       "name": "MuckPackStairsRecipe",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_stairs_recipe"
@@ -337,7 +337,7 @@
     {
       "name": "MuckPackSlabRecipe",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_slab_recipe"
@@ -345,7 +345,7 @@
     {
       "name": "MuckPackFenceRecipe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_fence_recipe"
@@ -353,7 +353,7 @@
     {
       "name": "MuckPackFenceGateRecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_fence_gate_recipe"
@@ -361,7 +361,7 @@
     {
       "name": "MuckPackPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_pressure_plate_recipe"
@@ -369,7 +369,7 @@
     {
       "name": "MuckPackButtonRecipe",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_button_recipe"
@@ -377,7 +377,7 @@
     {
       "name": "MuckPackStickRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muck_pack_stick_recipe"
@@ -385,7 +385,7 @@
     {
       "name": "KingGolem",
       "type": "livingentity",
-      "sortid": 54,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "king_golem"
@@ -393,7 +393,7 @@
     {
       "name": "Crown",
       "type": "armor",
-      "sortid": 55,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crown",
@@ -403,6 +403,22 @@
         "eb": false,
         "ec": false
       }
+    },
+    {
+      "name": "MuckDirtBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muck_dirt_block"
+    },
+    {
+      "name": "MuckGrassBlock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muck_grass_block"
     }
   ],
   "variable_elements": [],
@@ -415,6 +431,7 @@
       "block.muckmod.muck_pack_leaves": "Muck Leaves",
       "item.muckmod.mobmuck_spawn_egg": "Mini Muck Spawn Egg",
       "block.muckmod.muck_pack_fence_gate": "Muck Fence Gate",
+      "block.muckmod.muck_grass_block": "Muck Grass Block",
       "item.muckmod.crown_helmet": "Crown",
       "block.muckmod.muck_pack_pressure_plate": "Muck Pressure Plate",
       "block.muckmod.muck_pack_wood": "Muck Wood",
@@ -438,6 +455,7 @@
       "item.muckmod.muck_axe": "Muck Axe",
       "item.muckmod.muck_pickaxe": "Muck Pickaxe",
       "block.muckmod.muck_pack_log": "Muck Log",
+      "block.muckmod.muck_dirt_block": "Muck Dirt Block",
       "advancements.muck_advancements.title": "Muck Advancements",
       "item.muckmod.muck_music": "Muck Music Disk",
       "item.muckmod.muck_music.desc": "Playing muck music",
@@ -460,6 +478,7 @@
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "iron_golem",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

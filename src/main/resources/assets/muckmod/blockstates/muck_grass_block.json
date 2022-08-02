@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "muckmod:block/muck_grass_block"
+    }
+  }
+}
