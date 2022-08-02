@@ -23,6 +23,7 @@ import net.mcreator.muckmod.block.MuckPackButtonBlock;
 import net.mcreator.muckmod.block.MuckOreBlock;
 import net.mcreator.muckmod.block.MuckGrassBlockBlock;
 import net.mcreator.muckmod.block.MuckDirtBlockBlock;
+import net.mcreator.muckmod.block.MuckDimensionPortalBlock;
 import net.mcreator.muckmod.block.MuckBlockBlock;
 import net.mcreator.muckmod.MuckmodMod;
 
@@ -43,4 +44,6 @@ public class MuckmodModBlocks {
 	public static final RegistryObject<Block> MUCK_PACK_BUTTON = REGISTRY.register("muck_pack_button", () -> new MuckPackButtonBlock());
 	public static final RegistryObject<Block> MUCK_DIRT_BLOCK = REGISTRY.register("muck_dirt_block", () -> new MuckDirtBlockBlock());
 	public static final RegistryObject<Block> MUCK_GRASS_BLOCK = REGISTRY.register("muck_grass_block", () -> new MuckGrassBlockBlock());
+	public static final RegistryObject<Block> MUCK_DIMENSION_PORTAL = REGISTRY.register("muck_dimension_portal",
+			() -> new MuckDimensionPortalBlock());
 }

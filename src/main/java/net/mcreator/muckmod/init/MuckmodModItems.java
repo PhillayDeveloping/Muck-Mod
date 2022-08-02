@@ -20,6 +20,7 @@ import net.mcreator.muckmod.item.MuckPickaxeItem;
 import net.mcreator.muckmod.item.MuckMusicItem;
 import net.mcreator.muckmod.item.MuckIngotItem;
 import net.mcreator.muckmod.item.MuckHoeItem;
+import net.mcreator.muckmod.item.MuckDimensionItem;
 import net.mcreator.muckmod.item.MuckAxeItem;
 import net.mcreator.muckmod.item.MuckArmorItem;
 import net.mcreator.muckmod.item.CrownItem;
@@ -59,6 +60,7 @@ public class MuckmodModItems {
 	public static final RegistryObject<Item> MUCK_ARMOR_BOOTS = REGISTRY.register("muck_armor_boots", () -> new MuckArmorItem.Boots());
 	public static final RegistryObject<Item> MUCK_DIRT_BLOCK = block(MuckmodModBlocks.MUCK_DIRT_BLOCK, MuckmodModTabs.TAB_MUCK_MOD);
 	public static final RegistryObject<Item> MUCK_GRASS_BLOCK = block(MuckmodModBlocks.MUCK_GRASS_BLOCK, MuckmodModTabs.TAB_MUCK_MOD);
+	public static final RegistryObject<Item> MUCK_DIMENSION = REGISTRY.register("muck_dimension", () -> new MuckDimensionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

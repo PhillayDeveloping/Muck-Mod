@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "muckmod:block/muck_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "muckmod:block/muck_dimension_portal_ns"
+    }
+  }
+}
