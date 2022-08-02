@@ -456,8 +456,7 @@
     "modid": "muckmod",
     "modName": "MuckMod",
     "version": "1.0.0",
-    "author": "lindb, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "Phillay",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -466,7 +465,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.muckmod",
     "lockBaseModFiles": false
   },
