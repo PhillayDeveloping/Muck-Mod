@@ -51,10 +51,10 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 25,
+    "treesPerChunk": 10,
     "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 6,
     "treeStem": {
       "value": "CUSTOM:MuckPackLog"
     },

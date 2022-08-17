@@ -46,11 +46,11 @@ public class MuckBiomeBiome {
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("muckmod:tree_muck_biome", FeatureUtils.register("muckmod:tree_muck_biome", Feature.TREE,
 						new TreeConfiguration.TreeConfigurationBuilder(
-								BlockStateProvider.simple(MuckmodModBlocks.MUCK_PACK_LOG.get().defaultBlockState()), new StraightTrunkPlacer(7, 2, 0),
+								BlockStateProvider.simple(MuckmodModBlocks.MUCK_PACK_LOG.get().defaultBlockState()), new StraightTrunkPlacer(6, 2, 0),
 								BlockStateProvider.simple(MuckmodModBlocks.MUCK_PACK_LEAVES.get().defaultBlockState()),
 								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)).ignoreVines()
 								.build()),
-						List.of(CountPlacement.of(25), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
+						List.of(CountPlacement.of(10), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 								PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING),
 								BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
