@@ -1,6 +1,8 @@
 
 package net.mcreator.muckmod.world.biome;
 
+import net.minecraftforge.common.BiomeDictionary;
+
 import net.minecraft.world.level.levelgen.placement.SurfaceWaterDepthFilter;
 import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.CountPlacement;
@@ -19,19 +21,23 @@ import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.util.valueproviders.ConstantInt;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
+import net.minecraft.data.BuiltinRegistries;
+import net.minecraft.core.Registry;
 
 import net.mcreator.muckmod.init.MuckmodModBlocks;
+import net.mcreator.muckmod.init.MuckmodModBiomes;
 
 import java.util.List;
 
 public class MuckBiomeBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.142857142857f, 0.142857142857f),
-			Climate.Parameter.span(-0.142857142857f, 0.142857142857f), Climate.Parameter.span(0.367142857143f, 0.652857142857f),
-			Climate.Parameter.span(0.657142857143f, 0.942857142857f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-0.2435923313f, 0.042121954414f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.357142857143f, 0.357142857143f),
+			Climate.Parameter.span(-0.357142857143f, 0.357142857143f), Climate.Parameter.span(0.242857142857f, 0.957142857143f),
+			Climate.Parameter.span(0.042857142857f, 0.757142857143f), Climate.Parameter.point(0),
+			Climate.Parameter.span(-0.457878045586f, 0.2564076687f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)
@@ -44,7 +50,7 @@ public class MuckBiomeBiome {
 								BlockStateProvider.simple(MuckmodModBlocks.MUCK_PACK_LEAVES.get().defaultBlockState()),
 								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1)).ignoreVines()
 								.build()),
-						List.of(CountPlacement.of(5), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
+						List.of(CountPlacement.of(25), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 								PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING),
 								BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
@@ -57,5 +63,7 @@ public class MuckBiomeBiome {
 	}
 
 	public static void init() {
+		BiomeDictionary.addTypes(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(MuckmodModBiomes.MUCK_BIOME.get())),
+				BiomeDictionary.Type.PLAINS);
 	}
 }
